@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!-- Esempio di metadata Service Provider
+     Per informazioni sulla compilazione fare riferimento alle Regole Tecniche SPID --><!-- entityID è una URI che individua univocamente il Service Provider --><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_681a637-6cd4-434f-92c3-4fed720b2ad8" entityID="https://sisal.it/"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>we+3mdFNU3WSk7TrIGinZwnV5tmHwW1K8clEksoJa1k=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+AsV3FK+eBnZ+M7NqJihcYaEwPga4usGmJLwcAdSIwDuAvESWijayH1wHWw4ncLJSmsJwlR7Jg2yw
+tSHRJyBpot5765p688QTi+WxQh/pINYk28w4PlHdjDX4judND8OoJ5Cvl4nh8bgbB1zaiEHjy1eT
+2GDj6LrOnaavbvJcG2hTgE0+In/B+0jgGjgN8Zxt1F9vKyhTDMRmWgAEvjmN494M4ynIbmttAuK1
+7kCjmIyAnWbul3DQ/VRKPyA/MTDsMBNU7qFiBbA8DwGGCTn/BQaZGaLCMJkN80eI9Osgzu/xVGjm
+ltrg2N6MDzeagBQB6LiggFMcbUZk3vNWvuqQRlPI6MI6FZ7C+ihYW5varOsqZfRXa2bJ7KNw0NbY
+ctxowfHZTRgPb8iUiSj8O3GNFGtByRffBusdKiz9yO8Gj0d5+aTtTyVY/CigOSbBAWtQ+sApjOIY
+vEIKpOVZsUB23PiXQJn89kyVg3SEn129Y9tMD4YDIMV0+vlxGJAjmG2n
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+ttnxolvFuyWaHu2a9YuTFWBpcytCBx8d3TEeZvVbpjQWHfcaapSTs/cSTVOrl75uw1CsCyqzTabg
+K1k4Jsjd3Lo8xVaALPJg+kFZ4ZFVOpQu2h2G1fECHYWeEcskG8ciGNSye+7iCjJoyrkCDZcWcJtP
++PMq1+56B9hDAuUm+EG2R5K4IrFMn/s/YuwJWLyd1+uIoMlS0Z7DKWZ0oO+YEvvX0HJ6MC5AuWK6
+sHvACvW+JJfizOpW321oxH+d3dxrWDmNHvj4wXs3mGHg5CTvn+6GboLiNuyxYjur2WEa2e8UfdSA
+WW8NJEwF7u3YmBtF1c0jAAJwfSs36ut2k7p81NjRiXf+ZlCu87HQiQFMwtTnUfaZrZQyjb5/qZpf
+RutGjsAXyXNwBbl6XpNFjrgfmmDwKbJ08cg5qfQrIiK2fWcC/kyj7qmtO93nHWywoXsSCUW+2f9G
+ij98CqKy5SM5MIp1bYt2wnQ5V2coGFeQwPJ0fJDVPTbNvElNkrYwuy2x
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIEpjCCAw4CCQDxmv6z+U42uzANBgkqhkiG9w0BAQsFADCBlDEOMAwGA1UEAwwFU2lzYWwxCzAJ
+BgNVBAYTAklUMQ8wDQYDVQQHDAZNaWxhbm8xGjAYBgNVBGEMEVZBVElULTAyNDMzNzYwMTM1MSMw
+IQYDVQQKDBpTaXNhbCBFbnRlcnRhaW5tZW50IFMucC5BLjEjMCEGA1UEUwwaaGh0dHBzOi8vc2lz
+YWwuaXQvbWV0YWRhdGEwHhcNMjIwNTExMDk0NDEyWhcNMzIwNTA4MDk0NDEyWjCBlDEOMAwGA1UE
+AwwFU2lzYWwxCzAJBgNVBAYTAklUMQ8wDQYDVQQHDAZNaWxhbm8xGjAYBgNVBGEMEVZBVElULTAy
+NDMzNzYwMTM1MSMwIQYDVQQKDBpTaXNhbCBFbnRlcnRhaW5tZW50IFMucC5BLjEjMCEGA1UEUwwa
+aGh0dHBzOi8vc2lzYWwuaXQvbWV0YWRhdGEwggGiMA0GCSqGSIb3DQEBAQUAA4IBjwAwggGKAoIB
+gQC22fGiW8W7JZoe7Zr1i5MVYGlzK0IHHx3dMR5m9VumNBYd9xpqlJOz9xJNU6uXvm7DUKwLKrNN
+puArWTgmyN3cujzFVoAs8mD6QVnhkVU6lC7aHYbV8QIdhZ4RyyQbxyIY1LJ77uIKMmjKuQINlxZw
+m0/48yrX7noH2EMC5Sb4QbZHkrgisUyf+z9i7AlYvJ3X64igyVLRnsMpZnSg75gS+9fQcnowLkC5
+Yrqwe8AK9b4kl+LM6lbfbWjEf53d3GtYOY0e+PjBezeYYeDkJO+f7oZuguI27LFiO6vZYRrZ7xR9
+1IBZbw0kTAXu7diYG0XVzSMAAnB9Kzfq63aTunzU2NGJd/5mUK7zsdCJAUzC1OdR9pmtlDKNvn+p
+ml9G60aOwBfJc3AFuXpek0WOuB+aYPApsnTxyDmp9CsiIrZ9ZwL+TKPuqa073ecdbLChexIJRb7Z
+/0aKP3wKorLlIzkwinVti3bCdDlXZygYV5DA8nR8kNU9Ns28SU2StjC7LbECAwEAATANBgkqhkiG
+9w0BAQsFAAOCAYEAYjpfMqJyOcbZkAf39Fx2B4UovfM3cxlIliSWqJ1rur3qQrtox74A83Ksvbf+
+K810vxPxrzQfhCegFbA6/p9iue5pL6v7YivVb9mBs0bghR4alLAtPMBhJIEC6pNuWafgNUVvPUs4
+WVgLENVjA+o8dTHjHs4weycK6972zasARH2bo8gHBycsHEA/3kkYJYIDYf8Xn54W2Kgnsw/6Lw48
+vABgTIxP17qV0k2kaBo9WbMAJ7PwVdWzm++xvuzF1pgxesNtbd58vOdzUps2fhY5pYLLCLbVZ7B8
+3P4/1Cs1eelA2w5zYOQq1aIfBYQTJ3ct66j3hQIdVDDaKOtqQWB7R3HxqDU6ThOhB7Jc92zI4Y99
+HPAmOlvqsQ4Ryz/Sz0pcySyF2JWhx9UL4k/7cqrGO67L5CaAcQSTtZN5mXXy32F7GDHFboZvvQB1
+4aDEmlhazzI48/yuLjS83S79nEZI3mOVrhukimixpA21MoknUi2b2ghACZwDf4PzAzFR2Uen
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+
+    <!-- Il certificato del Service Provider va riportato nei due tag KeyDescriptor
+         qui sotto, senza i delimitatori ‐‐‐ BEGIN CERTIFICATE ‐‐‐ e ‐‐‐ END CERTIFICATE ‐‐‐ -->
+    <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+
+        <md:KeyDescriptor use="signing">
+            <ds:KeyInfo>
+                <ds:X509Data>
+                    <ds:X509Certificate>MIIEpjCCAw4CCQDxmv6z+U42uzANBgkqhkiG9w0BAQsFADCBlDEOMAwGA1UEAwwFU2lzYWwxCzAJBgNVBAYTAklUMQ8wDQYDVQQHDAZNaWxhbm8xGjAYBgNVBGEMEVZBVElULTAyNDMzNzYwMTM1MSMwIQYDVQQKDBpTaXNhbCBFbnRlcnRhaW5tZW50IFMucC5BLjEjMCEGA1UEUwwaaGh0dHBzOi8vc2lzYWwuaXQvbWV0YWRhdGEwHhcNMjIwNTExMDk0NDEyWhcNMzIwNTA4MDk0NDEyWjCBlDEOMAwGA1UEAwwFU2lzYWwxCzAJBgNVBAYTAklUMQ8wDQYDVQQHDAZNaWxhbm8xGjAYBgNVBGEMEVZBVElULTAyNDMzNzYwMTM1MSMwIQYDVQQKDBpTaXNhbCBFbnRlcnRhaW5tZW50IFMucC5BLjEjMCEGA1UEUwwaaGh0dHBzOi8vc2lzYWwuaXQvbWV0YWRhdGEwggGiMA0GCSqGSIb3DQEBAQUAA4IBjwAwggGKAoIBgQC22fGiW8W7JZoe7Zr1i5MVYGlzK0IHHx3dMR5m9VumNBYd9xpqlJOz9xJNU6uXvm7DUKwLKrNNpuArWTgmyN3cujzFVoAs8mD6QVnhkVU6lC7aHYbV8QIdhZ4RyyQbxyIY1LJ77uIKMmjKuQINlxZwm0/48yrX7noH2EMC5Sb4QbZHkrgisUyf+z9i7AlYvJ3X64igyVLRnsMpZnSg75gS+9fQcnowLkC5Yrqwe8AK9b4kl+LM6lbfbWjEf53d3GtYOY0e+PjBezeYYeDkJO+f7oZuguI27LFiO6vZYRrZ7xR91IBZbw0kTAXu7diYG0XVzSMAAnB9Kzfq63aTunzU2NGJd/5mUK7zsdCJAUzC1OdR9pmtlDKNvn+pml9G60aOwBfJc3AFuXpek0WOuB+aYPApsnTxyDmp9CsiIrZ9ZwL+TKPuqa073ecdbLChexIJRb7Z/0aKP3wKorLlIzkwinVti3bCdDlXZygYV5DA8nR8kNU9Ns28SU2StjC7LbECAwEAATANBgkqhkiG9w0BAQsFAAOCAYEAYjpfMqJyOcbZkAf39Fx2B4UovfM3cxlIliSWqJ1rur3qQrtox74A83Ksvbf+K810vxPxrzQfhCegFbA6/p9iue5pL6v7YivVb9mBs0bghR4alLAtPMBhJIEC6pNuWafgNUVvPUs4WVgLENVjA+o8dTHjHs4weycK6972zasARH2bo8gHBycsHEA/3kkYJYIDYf8Xn54W2Kgnsw/6Lw48vABgTIxP17qV0k2kaBo9WbMAJ7PwVdWzm++xvuzF1pgxesNtbd58vOdzUps2fhY5pYLLCLbVZ7B83P4/1Cs1eelA2w5zYOQq1aIfBYQTJ3ct66j3hQIdVDDaKOtqQWB7R3HxqDU6ThOhB7Jc92zI4Y99HPAmOlvqsQ4Ryz/Sz0pcySyF2JWhx9UL4k/7cqrGO67L5CaAcQSTtZN5mXXy32F7GDHFboZvvQB14aDEmlhazzI48/yuLjS83S79nEZI3mOVrhukimixpA21MoknUi2b2ghACZwDf4PzAzFR2Uen</ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+
+        <md:KeyDescriptor use="encryption">
+            <ds:KeyInfo>
+                <ds:X509Data>
+                    <ds:X509Certificate>MIIEpjCCAw4CCQDxmv6z+U42uzANBgkqhkiG9w0BAQsFADCBlDEOMAwGA1UEAwwFU2lzYWwxCzAJBgNVBAYTAklUMQ8wDQYDVQQHDAZNaWxhbm8xGjAYBgNVBGEMEVZBVElULTAyNDMzNzYwMTM1MSMwIQYDVQQKDBpTaXNhbCBFbnRlcnRhaW5tZW50IFMucC5BLjEjMCEGA1UEUwwaaGh0dHBzOi8vc2lzYWwuaXQvbWV0YWRhdGEwHhcNMjIwNTExMDk0NDEyWhcNMzIwNTA4MDk0NDEyWjCBlDEOMAwGA1UEAwwFU2lzYWwxCzAJBgNVBAYTAklUMQ8wDQYDVQQHDAZNaWxhbm8xGjAYBgNVBGEMEVZBVElULTAyNDMzNzYwMTM1MSMwIQYDVQQKDBpTaXNhbCBFbnRlcnRhaW5tZW50IFMucC5BLjEjMCEGA1UEUwwaaGh0dHBzOi8vc2lzYWwuaXQvbWV0YWRhdGEwggGiMA0GCSqGSIb3DQEBAQUAA4IBjwAwggGKAoIBgQC22fGiW8W7JZoe7Zr1i5MVYGlzK0IHHx3dMR5m9VumNBYd9xpqlJOz9xJNU6uXvm7DUKwLKrNNpuArWTgmyN3cujzFVoAs8mD6QVnhkVU6lC7aHYbV8QIdhZ4RyyQbxyIY1LJ77uIKMmjKuQINlxZwm0/48yrX7noH2EMC5Sb4QbZHkrgisUyf+z9i7AlYvJ3X64igyVLRnsMpZnSg75gS+9fQcnowLkC5Yrqwe8AK9b4kl+LM6lbfbWjEf53d3GtYOY0e+PjBezeYYeDkJO+f7oZuguI27LFiO6vZYRrZ7xR91IBZbw0kTAXu7diYG0XVzSMAAnB9Kzfq63aTunzU2NGJd/5mUK7zsdCJAUzC1OdR9pmtlDKNvn+pml9G60aOwBfJc3AFuXpek0WOuB+aYPApsnTxyDmp9CsiIrZ9ZwL+TKPuqa073ecdbLChexIJRb7Z/0aKP3wKorLlIzkwinVti3bCdDlXZygYV5DA8nR8kNU9Ns28SU2StjC7LbECAwEAATANBgkqhkiG9w0BAQsFAAOCAYEAYjpfMqJyOcbZkAf39Fx2B4UovfM3cxlIliSWqJ1rur3qQrtox74A83Ksvbf+K810vxPxrzQfhCegFbA6/p9iue5pL6v7YivVb9mBs0bghR4alLAtPMBhJIEC6pNuWafgNUVvPUs4WVgLENVjA+o8dTHjHs4weycK6972zasARH2bo8gHBycsHEA/3kkYJYIDYf8Xn54W2Kgnsw/6Lw48vABgTIxP17qV0k2kaBo9WbMAJ7PwVdWzm++xvuzF1pgxesNtbd58vOdzUps2fhY5pYLLCLbVZ7B83P4/1Cs1eelA2w5zYOQq1aIfBYQTJ3ct66j3hQIdVDDaKOtqQWB7R3HxqDU6ThOhB7Jc92zI4Y99HPAmOlvqsQ4Ryz/Sz0pcySyF2JWhx9UL4k/7cqrGO67L5CaAcQSTtZN5mXXy32F7GDHFboZvvQB14aDEmlhazzI48/yuLjS83S79nEZI3mOVrhukimixpA21MoknUi2b2ghACZwDf4PzAzFR2Uen</ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+
+        <!-- Endpoint del Service Provider deputato a ricevere le LogoutRequest -->
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sisal.it/spid/logout"/>
+
+        <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+
+        <!-- Endpoint del Service Provider deputato a ricevere le asserzioni di login.
+             (può essere ripetuto più volte, incrementando l'attributo index) -->
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="http://localhost:9099/send-response" index="0" isDefault="true"/>
+
+        <!-- Gruppo di attributi predefinito, che il Service Provider potrà richiedere
+             durante in login. Si può specificare più volte. Si raccomanda di limitare
+             gli attributi richiesti ai soli necessari per l'erogazione del proprio servizio. -->
+        <md:AttributeConsumingService index="1">
+            <md:ServiceName xml:lang="it">Registrazione</md:ServiceName>
+            <md:ServiceDescription xml:lang="it">Registrazione tramite SPID</md:ServiceDescription>
+            <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="idCard" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="registeredOffice" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="expirationDate" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+        </md:AttributeConsumingService>
+
+    </md:SPSSODescriptor>
+
+    <!-- Informazioni generali sul Service Provider -->
+    <md:Organization>
+        <md:OrganizationName xml:lang="it">Sisal S.p.A.</md:OrganizationName>
+        <md:OrganizationDisplayName xml:lang="it">Sisal</md:OrganizationDisplayName>
+        <md:OrganizationURL xml:lang="it">https://sisal.it/</md:OrganizationURL>
+    </md:Organization>
+
+    <md:ContactPerson contactType="other">
+        <md:Extensions>
+            <spid:Private/>
+            <spid:VATNumber>IT02433760135</spid:VATNumber>
+        </md:Extensions>
+        <md:Company>Sisal S.p.A.</md:Company>
+        <md:EmailAddress>info@sisal.it</md:EmailAddress>
+    </md:ContactPerson>
+    <md:ContactPerson contactType="billing">
+        <md:Extensions xmlns:fpa="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2">
+            <fpa:CessionarioCommittente>
+                <fpa:DatiAnagrafici>
+                    <fpa:IdFiscaleIVA>
+                        <fpa:IdPaese>IT</fpa:IdPaese>
+                        <fpa:IdCodice>+390288681</fpa:IdCodice>
+                    </fpa:IdFiscaleIVA>
+                    <fpa:Anagrafica>
+                        <fpa:Denominazione>Sisal S.p.A.</fpa:Denominazione>
+                    </fpa:Anagrafica>
+                </fpa:DatiAnagrafici>
+                <fpa:Sede>
+                    <fpa:Indirizzo>Via Ugo Bassi</fpa:Indirizzo>
+                    <fpa:NumeroCivico>6</fpa:NumeroCivico>
+                    <fpa:CAP>20159</fpa:CAP>
+                    <fpa:Comune>Milano</fpa:Comune>
+                    <fpa:Provincia>MI</fpa:Provincia>
+                    <fpa:Nazione>IT</fpa:Nazione>
+                </fpa:Sede>
+            </fpa:CessionarioCommittente>
+        </md:Extensions>
+        <md:Company>Sisal S.p.A.</md:Company>
+        <md:EmailAddress>info@sisal.it</md:EmailAddress>
+    </md:ContactPerson>
+
+</md:EntityDescriptor>
